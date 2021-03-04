@@ -3,3 +3,7 @@ phases:
   pre_build:
     commands:
       - composer install
+artifacts:
+    files:
+        - '**/*'
+
